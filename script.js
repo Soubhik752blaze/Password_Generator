@@ -97,7 +97,7 @@ function CalculatePasswordStrength() {
 async function copyContent() {
     try {
         await navigator.clipboard.writeText(passwordDisplay.value);
-        copyMsg.innerText = "copied";
+        copyMsg.innerText = "Copied";
     } catch (e) {
         copyMsg.innerText = "Failed";
     }
