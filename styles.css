@@ -171,11 +171,14 @@ body {
     color: var(--vb-yellow);
     font-weight: 600;
     font-size: 1.25rem;
-}
-
-.generateButton:hover {
     cursor: pointer;
 }
+
+.generateButton.inactive{
+    opacity: 0.4;
+    cursor: default;
+}
+
 
 .check {
     display: flex;
