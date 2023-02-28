@@ -144,13 +144,11 @@ function handleCheckBoxChange() {
         handleSlider();
     }
 
-    if(checkCount == 0)
-    {
+    if (checkCount == 0) {
         generateBtn.classList.add("inactive");
-    }
-    else{
-        if(generateBtn.classList.contains("inactive"))
-        generateBtn.classList.remove("inactive");
+    } else {
+        if (generateBtn.classList.contains("inactive"))
+            generateBtn.classList.remove("inactive");
     }
 }
 
